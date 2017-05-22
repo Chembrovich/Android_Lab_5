@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+    <string name="btnDelete_name">Delete alarm clock</string>
+    <string name="btnAdd_name">Add alarm clock</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="select">Select</string>
+    <string name="select_song">Select song</string>
+
+    <string-array name="time_array">
+        <item>10:34</item>
+        <item>22:34</item>
+        <item>13:56</item>
+        <item>20:12</item>
+        <item>11:11</item>
+        <item>10:34</item>
+        <item>22:34</item>
+        <item>13:56</item>
+        <item>20:12</item>
+        <item>11:11</item>
+        <item>10:34</item>
+        <item>22:34</item>
+        <item>13:56</item>
+        <item>20:12</item>
+        <item>11:11</item>
+        <item>10:34</item>
+        <item>22:34</item>
+        <item>13:56</item>
+        <item>20:12</item>
+        <item>11:11</item>
+    </string-array>
+    <string-array name="rings_array">
+        <item>Adele - Set Fire To The Rain</item>
+        <item>Gunther - Ding Dong Song</item>
+        <item>Adele - Rolling In The Deep</item>
+        <item>Gotye - Somebody That I Used To Know</item>
+        <item>Madonna - Masterpiece</item>
+        <item>David Guetta - Titanium ft. Sia</item>
+        <item>Queen - Who Wants To Live Forever</item>
+        <item>Scorpions - Wind Of Change</item>
+        <item>Depeche Mode - Personal Jesus</item>
+        <item>Pink Floyd - Another Brick In The Wall</item>
+        <item>George Michael - Careless Whisper</item>
+        <item>Nickelback- When We Stand Together</item>
+        <item>Coldplay - Paradise</item>
+        <item>Metallica - Nothing Else Matters</item>
+        <item>Frank Sinatra - My Way</item>
+        <item>The Prodigy - Firestarter</item>
+        <item>Linkin Park - Numb</item>
+        <item>Zaz - Je Veux</item>
+        <item>a-ha - Summer Moved On</item>
+        <item>Sade - Love Is Found</item>
+    </string-array>
+</resources>

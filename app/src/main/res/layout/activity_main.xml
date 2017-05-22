@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.alarmclock.MainActivity">
+
+    <ListView
+        android:id="@+id/listViewAlarms"
+        android:layout_width="0dp"
+        android:layout_height="455dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="2dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:drawSelectorOnTop="false"
+        android:choiceMode="multipleChoice"/>
+
+    <Button
+        android:id="@+id/btnAddAlarmClock"
+        android:layout_width="176dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="2dp"
+        android:text="@string/btnAdd_name"
+        android:onClick="onBtnAddAlarmClockClick"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnDeleteAlarmClock"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btnDeleteAlarmClock"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/btnDelete_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onBtnDeleteAlarmClick"
+        app:layout_constraintTop_toBottomOf="@+id/listViewAlarms"
+        app:layout_constraintLeft_toRightOf="@+id/btnAddAlarmClock"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
